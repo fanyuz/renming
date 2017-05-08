@@ -1,0 +1,179 @@
+@import reset;
+
+header{
+    width:100%;
+    height: 402px;
+    background: url(../img/gapp_geader.jpg) no-repeat;
+    background-size: 100% 100%;
+    .frame{
+        width: 419px;
+        height: 216px;
+        background: url(../img/gapp_opact.png) no-repeat;
+        background-size: 100% 100%;
+    }
+}
+.header_bottom{
+    height: 700px;
+    overflow: hidden;
+    .left_bar{
+        width: 100%;
+        height: auto;
+        margin-bottom: 20px;
+        padding: 5% 0 2% 10%;
+    }
+    .right_bar{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+.concentration{
+    width: 100%;
+    .concentration_top{
+        width: 100%;
+        height: 360px;
+        padding-top: 30px;
+        .func_bar{
+            
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            >li{
+               
+                flex: calc(~"25%");
+                height: 100%;
+                margin: 20px 0;
+                p:nth-child(1){
+                    font-size: 32px;
+                }
+                i{
+                    width: 12px;
+                }
+                p:nth-child(3){
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+    .concentration_cont{
+        width: 100%;
+        height: 600px;
+        position: relative;
+        >.left{
+            width: 100%;
+            height: auto;
+            position: absolute;
+            bottom: 20px;
+        }
+        >.right{
+            position: absolute;
+            top: 0;
+            width: 100%;
+            height: auto;
+        }
+    }
+    .concentration_btn{
+        width: 100%;
+        height: 600px;
+        .concentration_btn_t{
+            width: 100%;
+            height: auto;
+            .detail_bar{
+                width: 46%;
+                height: 256px;
+                margin: 15px 2% 0;
+            }
+        }
+    }
+}
+.stylist{
+    width: 100%;
+    height: 902px;
+    .stylist_btn_t{
+        width: 98%;
+        margin: 0 auto;
+        .detail_bar{
+            width: 44%;
+            height: 360px;
+            margin: 30px 3% 0;
+        }
+    }
+}
+.case_content{
+    width: 100%;
+    height: 580px;
+    .case_btn_t{
+        width: 100%;
+        height: auto;
+        .detail_bar{
+            width: 46%;
+            height: 226px;
+            margin: 20px 2% 0;
+        }
+    }
+}
+.original{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    .original_top{
+        width: 100%;
+        height: 80px;
+        padding: 10px;
+    }
+    .detail{
+        height: 580px;
+        position: relative;
+        >.left_bar{
+            width: 100%;
+            height: auto;
+            position: absolute;
+            top: 320px;
+            padding-left: 30%;
+        }
+        >.right_bar{
+            width: 100%;
+            height: auto;
+            position: absolute;
+            top: 0;
+            
+        }
+    }
+    .detail_bottom{
+        height: 580px;
+        position: relative;
+        >.left_bar{
+            width: 100%;
+            height: auto;
+            position: absolute;
+            top: 0;
+        }
+        >.right_bar{
+            width: 100%;
+            height: auto;
+            position: absolute;
+            top: 320px;
+            padding-left: 24%;
+            
+        }
+    }
+}
+.footer{
+    width: 100%;
+    height: 460px;
+    h4{
+        line-height: 46px;
+    }
+    >p{
+        font-size: 14px;
+        line-height: 32px;
+        letter-spacing: 2px;
+    }
+    .QRCode{
+        margin: 80px auto 20px;
+    }
+    .first{
+        letter-spacing: 0 !important;
+        font-size: 12px;
+    }
+}
