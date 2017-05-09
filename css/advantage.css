@@ -265,7 +265,7 @@ header .frame {
   padding-top: 20px;
 }
 .stylist > p:nth-child(1) {
-  font-size: 12px;
+  font-size: 0.75em;
   line-height: 20px;
   color: #FFFFFF;
   text-align: center;

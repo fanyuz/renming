@@ -2,12 +2,12 @@
 
 header{
     width:100%;
-    height: 402px;
+    height: 280px;
     background: url(../img/gapp_geader.jpg) no-repeat;
     background-size: 100% 100%;
     .frame{
-        width: 419px;
-        height: 216px;
+        width: 72%;
+        height: 52%;
         background: url(../img/gapp_opact.png) no-repeat;
         background-size: 100% 100%;
     }
@@ -57,7 +57,7 @@ header{
     }
     .concentration_cont{
         width: 100%;
-        height: 600px;
+        height: 560px;
         position: relative;
         >.left{
             width: 100%;
@@ -74,40 +74,73 @@ header{
     }
     .concentration_btn{
         width: 100%;
-        height: 600px;
+        height: 480px;
+        
         .concentration_btn_t{
             width: 100%;
             height: auto;
             .detail_bar{
                 width: 46%;
-                height: 256px;
+                height: 200px;
                 margin: 15px 2% 0;
+                
             }
         }
     }
 }
 .stylist{
     width: 100%;
-    height: 902px;
+    overflow: hidden;
+    height: auto;
+    padding-bottom: 40px;
+    >p:nth-child(1){
+        font-size: 8/16em;
+        line-height: 20px;
+        color: #FFFFFF;
+        text-align: center;
+    }
+    >h4{
+        font-size: 18px;
+        font-weight: 600;
+        text-align: center;
+        color: #FFFFFF;
+        position: relative;
+        i{
+            width: 20px;
+            height: 10px;
+            display: inline-block;
+            border-top: 1px solid #C1A28E;
+            margin: 0 8px;
+        }
+    }
+    >p:nth-child(3){
+        font-size: 10px;
+        line-height: 20px;
+        color: #FFFFFF;
+        text-align: center;
+    }
     .stylist_btn_t{
         width: 98%;
         margin: 0 auto;
         .detail_bar{
             width: 44%;
-            height: 360px;
+            height: 220px;
             margin: 30px 3% 0;
         }
     }
-}
+}   
 .case_content{
     width: 100%;
-    height: 580px;
+    height: auto;
+    h3{
+        font-size: 18px;
+    }
     .case_btn_t{
         width: 100%;
         height: auto;
         .detail_bar{
             width: 46%;
-            height: 226px;
+            height: auto;
             margin: 20px 2% 0;
         }
     }
@@ -120,16 +153,24 @@ header{
         width: 100%;
         height: 80px;
         padding: 10px;
+        h3{
+            font-size: 16px;
+            line-height: 34px;
+            color: #FFFFFF;
+            font-weight: 600;
+            text-align: center;
+            
+        }
     }
     .detail{
-        height: 580px;
+        height: 520px;
         position: relative;
         >.left_bar{
             width: 100%;
             height: auto;
             position: absolute;
-            top: 320px;
-            padding-left: 30%;
+            top: 240px;
+            padding-left: 15%;
         }
         >.right_bar{
             width: 100%;
@@ -140,8 +181,9 @@ header{
         }
     }
     .detail_bottom{
-        height: 580px;
+        height: 460px;
         position: relative;
+        
         >.left_bar{
             width: 100%;
             height: auto;
@@ -152,25 +194,28 @@ header{
             width: 100%;
             height: auto;
             position: absolute;
-            top: 320px;
-            padding-left: 24%;
+            top: 220px;
+            padding-left: 12%;
             
         }
     }
 }
 .footer{
     width: 100%;
-    height: 460px;
+    height: auto;
     h4{
-        line-height: 46px;
+        line-height: 36px;
+        i{
+            width: 30px;
+        }
     }
-    >p{
-        font-size: 14px;
+    
+    >p:nth-child(3){
+        font-size: 12px;
         line-height: 32px;
-        letter-spacing: 2px;
     }
     .QRCode{
-        margin: 80px auto 20px;
+        margin: 46px auto 15px;
     }
     .first{
         letter-spacing: 0 !important;
